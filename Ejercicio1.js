@@ -1,5 +1,5 @@
 /*LOS PRODUCTOS DE KARICHA SON LOS MEJORES... PARA TI PARA MI ... XD*/ 
-producto={
+producto={ /*Objeto producto*/
     code:"",
     description:"",
     type:"",
@@ -9,7 +9,7 @@ producto={
 }
 function cajita(){
     
-    var productos=[
+    var productos=[ /*Arreglo con los productos de mi cajita*/
         (producto.code="01",producto.description="Principe",producto.type="Galleta",producto.precio_compra="0.25",producto.precio_venta="0.35",producto.stock="18"),
         (producto.code="02",producto.description="SnackPack",producto.type="Pudin de chocolate",producto.precio_compra="0.35",producto.precio_venta="0.60",producto.stock="24"),
         (producto.code="03",producto.description="BonBonBun",producto.type="Bombon de creza y limon",producto.precio_compra="0.10",producto.precio_venta="0.15",producto.stock="0"),
@@ -17,8 +17,8 @@ function cajita(){
         (producto.code="05",producto.description="SweetArts",producto.type="Pastillas acidas",producto.precio_compra="0.10",producto.precio_venta="0.15",producto.stock="50"),
         
     ];
-    var ventas=[1,0.75,2.5,1.5,2,2,3,16,2.5,3];
-    var menu=prompt("La Jefecita"+"\n"+"Que desea hacer:"
+    var ventas=[1,0.75,2.5,1.5,2,2,3,16,2.5,3]; /*ventas ganadas*/
+    var menu=prompt("La Jefecita: Karicha "+"\n"+"Que desea hacer:"
     +"\n"+"1)Agregar Producto"+"\n"+"2)Modificar stock"+"\n"+"3)Mostrar promedio de ventas"
     +"\n"+"4)Mostrar productos con stock 0"+"\n"+"5)Salir");
     switch(menu){
